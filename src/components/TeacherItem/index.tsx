@@ -16,20 +16,20 @@ function TeacherItem() {
       </header>
 
       <p>
-        O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.
-            <br /><br />
-            É mantido pelo Facebook, Instagram, outras empresas e uma comunidade de desenvolvedores individuais.
-          </p>
+        React faz com que a criação de UIs interativas seja uma tarefa fácil. Crie views simples para cada estado na sua aplicação, e o React irá atualizar e renderizar de forma eficiente apenas os componentes necessários na medida em que os dados mudam.
+        <br /><br />
+        Views declarativas fazem com que seu código seja mais previsível e simples de depurar.
+      </p>
 
       <footer>
         <p>
           Preço/hora
-              <strong>R$ 100,00</strong>
+          <strong>R$ 100,00</strong>
         </p>
         <button type="button">
           <img src={whatsappIcon} alt="whatsapp" />
               Entrar em contato
-            </button>
+        </button>
       </footer>
     </article>
   );
