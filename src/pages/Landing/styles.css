@@ -18,7 +18,7 @@
   width: 100%;
 }
 
-.logo-container{
+.logo-container {
   text-align: center;
   margin-bottom: 3.2rem;
 }
@@ -41,7 +41,7 @@
   height: 10.4rem;
   border-radius: 0.8rem;
   font: 700 2.0rem Archivo;
-
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,20 +64,25 @@
   background: var(--color-primary-lighter);
 }
 
-.buttons-container a.study:hover {
-  background: var(--color-primary-light);
-}
-
 .buttons-container a.give-classes {
   background: var(--color-secundary);
+}
+
+.buttons-container a.study:hover {
+  background: var(--color-primary-light);
 }
 
 .buttons-container a.give-classes:hover {
   background: var(--color-secundary-dark);
 }
 
+.buttons-container a img {
+  margin-right: 2.4rem;
+}
+
 .total-connections {
   font-size: 1.4rem;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -97,7 +102,7 @@
     grid-template-areas: 
       "logo hero hero"
       "buttons buttons total"
-      ;
+    ;
   }
 
   .logo-container {
@@ -112,7 +117,7 @@
     font-size: 3.6rem;
   }
 
-  .logo-container {
+  .logo-container img {
     height: 100%;
   }
 
@@ -126,12 +131,8 @@
     justify-content: flex-start;
   }
 
-  .buttons-container a{
-  font-size: 2.4rem;
-  }
-
-  .buttons-container a img {
-    margin-right: 2.4rem;
+  .buttons-container a {
+    font-size: 2.4rem;
   }
 
   .total-connections {
